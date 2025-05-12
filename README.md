@@ -7,6 +7,7 @@ Este repositório reúne exercícios classificados como de dificuldade básica o
 * [Desafio 1: Conversor de Temperatura](#desafio-1-conversor-de-temperatura)
 * [Desafio 2: Gerador de Mensagem Codificada](#desafio-2-gerador-de-mensagem-codificada)
 * [Desafio 3: Contador de Vogais e Consoantes](#desafio-3-contador-de-vogais-e-consoantes)
+* [Desafio 4: Calculadora com Funções](#desafio-4-calculadora-com-funções)
 
 ---
 
@@ -110,6 +111,47 @@ Consoantes: 4
 
 > Este exercício pode apresentar comportamentos inesperados ao ser executado diretamente no terminal do Visual Studio Code.
 > Caso enfrente problemas, recomenda-se utilizar outra IDE como **IntelliJ**, **Eclipse**, ou um compilador online como [OneCompiler](https://onecompiler.com/java) ou [OnlineGDB](https://www.onlinegdb.com/online_java_compiler).
+
+---
+
+## Desafio 4: Calculadora com Funções
+
+**Arquivo:** `desafio4_calculadora.java`  
+**Tópico:** Métodos, Operações Matemáticas e Entrada de Dados
+
+Este exercício propõe a criação de uma calculadora que permite ao usuário escolher uma operação matemática e executa o cálculo usando métodos estáticos separados para cada operação.
+
+### Regras
+
+- Exibir opções de operação: soma, subtração, multiplicação e divisão
+- Usar `Scanner` para capturar:
+  - A operação escolhida (`+`, `-`, `*`, `/`)
+  - Dois números reais (`double`)
+- Criar um método estático separado para cada operação
+- Chamar o método correspondente com base na escolha do usuário
+- Tratar o caso de divisão por zero ou número negativo com uma nova solicitação de entrada
+
+### Exemplo
+
+```plaintext
+Escolha uma operação:
++ -> Soma
+- -> Subtração
+* -> Multiplicação
+/ -> Divisão
+
+Digite um número: 10
+Digite outro número: 2
+Resultado: 5.0
+```
+
+### Aprendizados
+
+- Declaração e uso de métodos estáticos
+- Encapsulamento de lógica em funções reutilizáveis
+- Estrutura condicional (`if/else if/else`)
+- Leitura de entradas numéricas e textuais com `Scanner`
+- Validação de entrada (divisão por zero ou número negativo)
 
 ---
 
