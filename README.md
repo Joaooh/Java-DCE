@@ -8,6 +8,7 @@ Este repositório reúne exercícios classificados como de dificuldade básica o
 * [Desafio 2: Gerador de Mensagem Codificada](#desafio-2-gerador-de-mensagem-codificada)
 * [Desafio 3: Contador de Vogais e Consoantes](#desafio-3-contador-de-vogais-e-consoantes)
 * [Desafio 4: Calculadora com Funções](#desafio-4-calculadora-com-funções)
+* [Desafio 5: Jogo de Adivinhação](#desafio-5-jogo-de-adivinhação)
 
 ---
 
@@ -154,6 +155,43 @@ Resultado: 5.0
 - Validação de entrada (divisão por zero ou número negativo)
 
 ---
+
+## Desafio 5: Jogo de Adivinhação
+
+**Arquivo:** `desafio5_random.java`  
+**Tópico:** Laços de Repetição, Condicional e Números Aleatórios
+
+Este exercício propõe a criação de um jogo em que o usuário deve adivinhar um número secreto gerado aleatoriamente entre 1 e 100. O jogador tem até 5 tentativas, recebendo dicas a cada erro.
+
+### Regras
+
+- Gerar um número aleatório entre 1 e 100 usando `Random`
+- Permitir até 5 tentativas para o usuário adivinhar
+- Após cada tentativa incorreta, exibir uma dica:
+  - “O número é MAIOR que X” ou “MENOR que X”
+- Se o usuário acertar, exibir: “Você venceu!”
+- Se esgotar as tentativas, exibir: “Você perdeu! O número era X”
+
+### Exemplo
+
+```plaintext
+Tentativa 1/5: Digite um palpite: 50
+Dica: O número é MAIOR que 50.
+
+Tentativa 2/5: Digite um palpite: 75
+Dica: O número é MENOR que 75.
+
+Tentativa 3/5: Digite um palpite: 63
+Você venceu! O número era 63.
+```
+
+### Aprendizados
+
+- Geração de números aleatórios com `Random`
+- Controle de tentativas com `while`
+- Comparação de valores e uso de `if/else`
+- Lógica de repetição com contadores
+- Exibição de mensagens condicionais
 
 ## Como executar qualquer exercício
 
